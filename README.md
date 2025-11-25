@@ -1,7 +1,7 @@
 Proyecto: Evolución del Teatro y Teatro Musical en España
 1. Descripción del Proyecto
 
-Análisis estructurado del sector teatral en España, con foco específico en teatro musical y su impacto del turismo cultural.
+Análisis estructurado del sector teatral en España, con foco específico en teatro musical y su impacto en el turismo cultural.
 El objetivo es evaluar tendencias, dinámicas territoriales, evolución económica y comportamiento del público.
 
 2. Estructura del Proyecto
