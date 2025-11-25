@@ -1,73 +1,111 @@
-📊 Evolución del Sector Teatral en España (2016–2023)
-1. Descripción del proyecto
+Proyecto: Evolución del Teatro y Teatro Musical en España
+1. Descripción del Proyecto
 
-Este repositorio analiza la evolución del sector teatral en España entre 2016 y 2023, integrando un EDA principal del teatro nacional y un EDA específico del teatro musical, uno de los segmentos más relevantes de las artes escénicas.
+Análisis estructurado del sector teatral en España, con foco específico en teatro musical y el impacto del turismo cultural.
+El objetivo es evaluar tendencias, dinámicas territoriales, evolución económica y comportamiento del público.
 
-El proyecto combina datos oficiales del Ministerio de Cultura con información recopilada manualmente sobre producciones musicales en España, complementado con indicadores clave sobre asistencia y financiación pública.
+2. Estructura del Proyecto
+BLOQUE 1 — Teatro en España (Sector General)
 
-2. Contenido del repositorio
-/data_principal/
-    teatro_espana_2016_2023_limpio.csv
-    Eda_teatro_espana.ipynb
+Datasets:
 
-/data_musicales/
-    musicales_limpio_final.csv
-    Eda_data_musicales_PORTFOLIO.ipynb
+teatro_espana_2023_2024.csv
 
-/data_contexto/
-    Asistencia_artes_escenicas2025.csv
-    porcentaje_PIB_cultura_2023.csv
-    precios_musicales_limpio.csv
+recaudacion_teatro_ccaa_2019_2024.csv
 
-README.md
+comparativa_cine_teatro_2020_2024.csv
 
-3. Objetivos
+porcentaje_PIB_cultura_2023.csv
 
-Analizar la evolución de espectadores, ingresos y producciones del teatro en España.
+Objetivos:
 
-Estudiar el comportamiento y tendencias del teatro musical como subindustria.
+Analizar la evolución general del teatro.
 
-Incorporar datos contextuales para entender el impacto social y económico del sector.
+Evaluar distribución territorial (CCAA y municipios).
 
-Identificar patrones, cambios estructurales y efectos de la pandemia en 2021.
+Comparar Teatro vs Cine.
 
-4. Resumen de resultados
-Teatro en España (2016–2023)
+Incorporar indicadores económicos globales (PIB Cultural).
 
-Estabilidad y crecimiento hasta 2019.
+BLOQUE 2 — Teatro Musical (Sector Específico)
 
-Descenso abrupto en 2021 por la pandemia.
+Datasets:
 
-Recuperación sólida en 2022–2023 en ingresos, espectadores y producción.
+musicales_limpio_final.csv
 
-Teatro musical
+precios_musicales_limpio.csv
 
-Alta concentración en Stage, SOM, LETSGO y Beon.
+Precio_entradas_musicales.xlsx
 
-Actividad centrada en los principales teatros de Madrid.
+Objetivos:
 
-Crecimiento significativo desde 2021 y consolidación del formato de gira.
+Analizar la dinámica del teatro musical en España.
 
-Datos complementarios
+Medir estrenos, reposiciones, demanda y recaudación.
 
-El nivel local es el que mayor porcentaje del PIB destina a cultura.
+Estudiar estrategias de precios y productoras líderes.
 
-Jóvenes y mujeres presentan los mayores niveles de asistencia.
+BLOQUE 3 — Turismo Cultural (Demanda Indirecta)
 
-El precio de los musicales muestra diferencias importantes por obra, productor y teatro.
+Datasets:
 
-5. Tecnologías utilizadas
+turismo_cultural_espana_v2.csv
 
-Python
+Asistencia_artes_escenicas2025.csv
 
-Pandas
+Objetivos:
 
-Matplotlib / Seaborn
+Evaluar viajes motivados por cultura.
 
-Jupyter Notebook
+Analizar gasto cultural y asistencia a espectáculos.
 
-CSV (UTF-8 / UTF-8-SIG)
+Medir relación entre turismo cultural y consumo teatral.
 
-6. Autora
+3. Herramientas Utilizadas
 
-Proyecto desarrollado por Ela Ruiz González, artista y analista de datos especializada en el cruce entre artes escénicas y tecnología.
+Python (Pandas, NumPy, Matplotlib)
+
+Jupyter Notebooks
+
+Excel / CSV
+
+Visual Studio Code
+
+GitHub
+
+4. Metodología
+
+Integración y estandarización de datasets.
+
+Limpieza y validación (nulos, duplicados, consistencias).
+
+EDA por bloques con KPIs clave.
+
+Visualización de tendencias y comparativas.
+
+Extracción de insights y conclusiones.
+
+5. Resultados Clave (resumen)
+
+El teatro en España muestra recuperación sostenida.
+
+Madrid lidera oferta, recaudación y demanda.
+
+El teatro musical consolida su peso económico.
+
+El turismo cultural incrementa la asistencia y el gasto.
+(Insights ampliables según análisis final.)
+
+6. Estructura de Carpetas
+PROYECTO_TEATRO/
+│
+├── BLOQUE_1_TEATRO/
+├── BLOQUE_2_MUSICALES/
+├── BLOQUE_3_TURISMO/
+└── fuentes_delproyecto.pdf
+
+7. Autor
+
+Ela Ruiz González – Data Analyst & Performing Arts Professional.
+
+Proyecto orientado a portfolio y empleabilidad en análisis de datos aplicados al sector cultural.
