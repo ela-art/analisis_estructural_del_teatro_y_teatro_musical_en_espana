@@ -1,40 +1,102 @@
+README PRINCIPAL — Proyecto: Análisis Estructural del Teatro y del Teatro Musical en España (2010–2025)
 
-Análisis Estructural del Teatro y del Teatro Musical en España (2010–2025)
-
-Proyecto de análisis aplicado al sector cultural en España.
-Incluye tres bloques: Teatro General, Teatro Musical y Turismo Cultural.
-El objetivo es identificar tendencias, cuantificar impacto económico y analizar el comportamiento del público.
-
-Contenido del Repositorio
+Proyecto de análisis del sector teatral en España con foco en tres áreas:
+Teatro (general), Teatro Musical y Turismo Cultural.
+Basado en datos oficiales, limpieza exhaustiva y EDAs estructurados por bloques.
 
 BLOQUE 1 — Teatro en España (Sector General)
-– Evolución del teatro por año
-– Recaudación por CCAA
-– Comparativa Cine vs Teatro
-– Indicadores económicos (PIB Cultura)
 
-BLOQUE 2 — Teatro Musical (Sector Específico)
-– Estrenos, reposiciones y demanda
-– Productoras líderes
-– Pricing y estrategias de precio
-– Recaudación y patrones de asistencia
+Archivos incluidos:
 
-BLOQUE 3 — Turismo Cultural (Demanda Indirecta)
-– Viajes motivados por cultura
-– Asistencia a artes escénicas
-– Relación entre turismo y consumo teatral
+teatro_espana_2023_2024_limpio.csv
+
+recaudacion_teatro_ccaa_2019_2024.csv
+
+comparativa_cine_teatro_2020_2024.csv
+
+porcentaje_PIB_cultura_2023_limpio.csv
+
+asistencia_artes_escenicas_2010_2025_limpio.csv
+
+eda_teatro_espana_2023_2024.ipynb
+
+eda_recaudacion_teatro_ccaa_2019_2024.ipynb
+
+eda_comparativa_cine_teatro_2020_2024.ipynb
+
+eda_porcentaje_PIB.ipynb
+
+eda_asistencia_artes_escenicas2025.ipynb
+
+Objetivos reales del bloque :
+
+Evolución del teatro por año
+
+Recaudación por CCAA
+
+Comparativa Cine vs Teatro
+
+Indicadores económicos (PIB Cultura)
+
+Asistencia a artes escénicas (2010–2025)
+
+BLOQUE 2 — Teatro Musical
+
+Archivos incluidos :
+
+musicales_limpio.csv
+
+precios_musicales_limpio_final.csv
+
+eda_musicales_limpio.ipynb
+
+eda_precios_musicales_limpio.ipynb
+
+Objetivos reales del bloque:
+
+Análisis estructural del teatro musical
+
+Estrenos, reposiciones, demanda
+
+Estrategias de precios
+
+Productoras líderes
+
+Tendencias de recaudación
+
+BLOQUE 3 — Turismo Cultural
+
+Archivos incluidos:
+
+turismo_cultural_espana_limpio.csv
+
+eda_turismo_cultural_espana_v2.ipynb
+
+Objetivos reales del bloque:
+
+Viajes motivados por cultura
+
+Tendencias de turismo cultural
+
+Relación entre turismo y consumo teatral
 
 Metodología
 
-– Integración y estandarización de datasets
-– Limpieza (nulos, duplicados, consistencias)
-– EDA por bloque
-– Comparativas y KPIs
-– Extracción de insights estratégicos
+Integración y estandarización de datasets
+
+Limpieza completa (nulos, duplicados, normalización)
+
+EDA por bloque y por dataset
+
+KPIs y visualización exploratoria
+
+Base lista para análisis profundo y comparativo entre bloques
 
 Objetivo Profesional
 
 Proyecto orientado a portfolio para roles de Data Analysis aplicados a industrias culturales, entretenimiento y economía creativa.
 
-Autor: Ela Ruiz González
+Autor
+
+Ela Ruiz González
 Data Analyst & Performing Arts Professional
